@@ -2,7 +2,7 @@ const { argv, option, options } = require('yargs');
 const { crearArchivo } = require('./helpers/multiplicar_elemento');
 
 //!Capitulo 35: Inlcuimos
-const argv = require('./config/yargs');
+//const argv = require('./config/yargs');
 
 //! Capitulo 32 --> Recibir informacion desde la consola, no sirve para nada esto porque recibe los parametros 
 //! y los usa de acuerdo a la posicion
@@ -25,6 +25,6 @@ const argv = require('./config/yargs');
 console.clear();
 
 //! llamamos a la funcion para el 34, NO PROBE
-crearArchivo(argv.b, argv.l).
+/*crearArchivo(argv.b, argv.l).
 then(nombreArchivo => console.log(nombreArchivo, 'creado')).
-catch(err => console.log(err));
+catch(err => console.log(err));*/
